@@ -1,4 +1,1 @@
-
-Nama: Yolanda Dhea Andini
-NIM: 25-063
-Kelas: PAW E
+25-063_Yolanda_Dhea_Andini
