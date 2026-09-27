@@ -1,6 +1,6 @@
 <?php
 	$string = "Hello world!";
-	$posisi = strpos($string, "world");
-
-	echo $posisi;
+	$hasil = str_replace("world", "Dolly", $string);
+	
+	echo $hasil;
 ?>
