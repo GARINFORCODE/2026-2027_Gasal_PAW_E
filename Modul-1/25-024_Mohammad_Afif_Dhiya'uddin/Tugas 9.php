@@ -1,6 +1,6 @@
 <?php
 	$string = "Hello world!";
-	$jumlah = strlen($string);
-
+	$jumlah = str_word_count($string);
+	
 	echo $jumlah;
 ?>
