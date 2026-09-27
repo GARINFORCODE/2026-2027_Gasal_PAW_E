@@ -1,13 +1,6 @@
 <?php
-    function penjumlahan($x, $y) {
-        $z = $x + $y;
-        echo "$x + $y = $z";
-        echo "<br>";
-    }
+	$x = 5;
+	$y = 7;
 
-    penjumlahan(5, 10);
-    echo "<br>";
-    penjumlahan(7, 13);
-     echo "<br>";
-    penjumlahan(2, 4);
+	echo $x + $y;
 ?>
