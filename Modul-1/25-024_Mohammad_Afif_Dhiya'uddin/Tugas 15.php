@@ -1,11 +1,10 @@
 <?php
-    function familyName($fname) {
-        echo "$fname <br>";
+    function familyName($fname, $year) {
+        echo "$fname, $year <br>";
     }
 
-    familyName("Naruto");
-    familyName("Nobara");
-    familyName("Leon");
-    familyName("Sasuke");
-    familyName("Madara");
+    familyName("Ling        in", 2007);
+    familyName("Grock       in", 2006);
+    familyName("Jin Assugo  in", 2008);
 ?>
+
