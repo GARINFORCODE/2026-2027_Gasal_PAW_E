@@ -1,6 +1,11 @@
 <?php
-    function writeMsg() {
-        echo "Hello world!";
+    function familyName($fname) {
+        echo "$fname <br>";
     }
-    writeMsg();
+
+    familyName("Naruto");
+    familyName("Nobara");
+    familyName("Leon");
+    familyName("Sasuke");
+    familyName("Madara");
 ?>
