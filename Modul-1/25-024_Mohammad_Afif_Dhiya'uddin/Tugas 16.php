@@ -1,9 +1,7 @@
 <?php
-    function familyName($fname, $year) {
-        echo "$fname, $year <br>";
+    function height($minheight = 50) {
+        echo "The height is : $minheight";
     }
 
-    familyName("Ling        in", 2007);
-    familyName("Grock       in", 2006);
-    familyName("Jin Assugo  in", 2008);
+    height();
 ?>
