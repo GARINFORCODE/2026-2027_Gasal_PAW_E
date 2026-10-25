@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Data Pribadi</title>
+  </head>
+  <body>
+    <h1>Form Data Pribadi</h1>
+
+    <form action="processData.php" method="POST">
+      <p>
+        <label for="surname">Surname:</label><br />
+        <input type="text" id="surname" name="surname" />
+      </p>
+
+      <p>
+        <label for="email">Email address:</label><br />
+        <input type="email" id="email" name="email" />
+      </p>
+
+      <p>
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" />
+      </p>
+
+      <p>
+        <label for="street_address">Street Address:</label><br />
+        <textarea
+          id="street_address"
+          name="street_address"
+          rows="4"
+          cols="35"
+        ></textarea>
+      </p>
+
+      <p>
+        <label for="state">State:</label><br />
+        <select id="state" name="state">
+          <option value="">-- Pilih state --</option>
+          <option value="NSW">New South Wales</option>
+          <option value="VIC">Victoria</option>
+          <option value="QLD">Queensland</option>
+          <option value="WA">Western Australia</option>
+          <option value="SA">South Australia</option>
+          <option value="TAS">Tasmania</option>
+          <option value="ACT">Australian Capital Territory</option>
+          <option value="NT">Northern Territory</option>
+        </select>
+      </p>
+
+      <input type="hidden" name="country" value="Australia" />
+
+      <p>Gender:</p>
+      <label><input type="radio" name="gender" value="Male" /> Male</label>
+      <label><input type="radio" name="gender" value="Female" /> Female</label>
+      <label><input type="radio" name="gender" value="Other" /> Other</label>
+
+      <p>
+        <label>
+          <input type="checkbox" name="vegetarian" value="Yes" />
+          Vegetarian?
+        </label>
+      </p>
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
