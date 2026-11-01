@@ -1,8 +1,6 @@
 <?php
-// Daftar error selalu dimulai dalam keadaan kosong setiap kali halaman dibuka.
 $daftar_error = array();
 
-// Jika surname sudah dikirim, berarti tombol Submit telah ditekan.
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['surname'])) {
     require 'validate.inc';
     validasiSemuaIsian($daftar_error, $_POST);
@@ -38,11 +36,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['surname'])) {
                 . htmlspecialchars($pesan_error) . '</p>';
         }
 
-        // Form ditampilkan lagi dengan nilai sebelumnya tetap terisi.
         include 'form.inc';
     }
 } else {
-    // Saat pertama kali dibuka, tampilkan form kosong.
     include 'form.inc';
 }
 ?>

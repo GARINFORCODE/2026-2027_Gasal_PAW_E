@@ -7,6 +7,7 @@ $fruits[] = "Elderberry";
 $fruits[] = "Fig";
 $fruits[] = "Grape";
 $fruits[] = "Honeydew";
+array_push($fruits, "rambutan");
 echo 'fruits = (';
 foreach ($fruits as $value) {
     echo "\"$value\", ";

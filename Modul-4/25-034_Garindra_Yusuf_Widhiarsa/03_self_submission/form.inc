@@ -1,5 +1,5 @@
 <?php
-// Nilai lama diambil dari POST jika ada; jika belum ada, gunakan string kosong.
+
 $surname_lama = $_POST['surname'] ?? '';
 $email_lama = $_POST['email'] ?? '';
 $alamat_lama = $_POST['street_address'] ?? '';
