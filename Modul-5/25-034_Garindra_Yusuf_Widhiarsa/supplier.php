@@ -41,7 +41,7 @@ $supplier = $supplier->fetchAll();
                             <td><?php echo $row['alamat'] ?></td>
                             <td>
                                 <a href="edit_supplier.php?id=<?php echo $row['id'] ?>" class="btn btn-warning btn-sm">Edit</a>
-                                <a href="delete.php?id=<?php echo $row['id'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Yakin ingin menghapus data supplier ini?')">Hapus</a>
+                                <a href="delete.php?id=<?php echo $row['id'] ?>" class="btn btn-danger btn-sm" onclick="return confirm('Anda yakin akan menghapus supplier ini?')">Hapus</a>
                             </td>
                         </tr>
                     <?php endforeach ?>
